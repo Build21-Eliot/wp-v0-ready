@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+      "target": "ES6",
+      "module": "ESNext",
+      "jsx": "react",
+      "strict": true,
+      "moduleResolution": "node",
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "sourceMap": true,
+      "outDir": "./build",
+      "baseUrl": "./",
+      "paths": {
+        "@/*": ["./src/*"]
+      }
+    },
+    "include": ["./src/**/*"],
+    "exclude": ["node_modules", "build"]
+  }
+  

@@ -1,0 +1,16 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "build21/wp-v0-ready",
+    "title": "WP V0 Ready",
+    "category": "widgets",
+    "icon": "smiley",
+    "description": "A custom block built with TypeScript and React.",
+    "keywords": ["custom", "block"],
+    "version": "1.0.0",
+    "textdomain": "build21",
+    "editorScript": "file:./build/block-editor.js",
+    "editorStyle": "file:./build/block-editor.css",
+    "style": "file:./build/block-editor.css"
+  }
+  

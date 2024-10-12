@@ -1,0 +1,17 @@
+{
+    "name": "build21/wp-v0-ready",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "Build21\\WpV0Ready\\": "includes/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Eliot Herbst",
+            "email": "eliot@build21.com"
+        }
+    ],
+    "require": {}
+}
